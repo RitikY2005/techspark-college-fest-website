@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Techspark - college fest website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Live Site](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://mithibaitechspark.in)
 
-## Available Scripts
+A comprehensive event management and showcase platform for **TechSpark**, the annual  technical festival organized by the Department of Computer Science at SVKM's Mithibai College.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[Techspark](https://mithibaitechspark.in) is a fest website where students can explore different events and participate in them seamlessly . The platform acts as a central source of information regarding the fest .
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshots
 
-### `npm run build`
+![Screenshot 3](https://lh3.googleusercontent.com/u/0/d/1fqSwmneYjFOCW3jcabTjs3n6yzKajxTu)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Screenshot 3](https://lh3.googleusercontent.com/u/0/d/16_i7IsFqpzeu8AY8-6Kn2rohkjieGIF-)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Screenshot 2](https://lh3.googleusercontent.com/u/0/d/10VpO_GOPzAhkwKgITm5eKpdjlOSLjGXD)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### User Experience & Interaction
+* **Dynamic Event Hub:** Explore a variety of technical and non-technical events categorized by domain.
+* **Seamless Registration:** Integrated forms for individual and team-based registrations.
+* **Responsive Interface:** Fully optimized for mobile devices to ensure students can access info on the go.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Tech Stack
 
-### Analyzing the Bundle Size
+| Component | Technology |
+| :--- | :--- |
+| **Frontend** | React.js, Tailwind CSS, axios |
+| **Database** | firebase firestore |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Installation and Setup
+> [!NOTE]
+> KEEP the .env file in the root folder
 
-### Advanced Configuration
+```
+npm install
+npm run dev
+```
+env variables -
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```
+REACT_APP_API_KEY=
+REACT_APP_AUTHDOMAIN=
+REACT_APP_DATABASEURL=
+REACT_APP_PROJECTID=
+REACT_APP_STORAGEBUCKET=
+REACT_APP_MESSAGINGSENDERID=
+REACT_APP_APPID=
+```
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
