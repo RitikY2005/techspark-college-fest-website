@@ -1,8 +1,8 @@
 import { PentApp } from "../components/RegistrationForms.js";
 import { DualApp } from "../components/RegistrationForms.js";
 import { TrioApp } from "../components/RegistrationForms.js";
-import { SoloApp } from "../components/RegistrationForms.js";
 import { FootballApp } from "../components/RegistrationForms.js";
+import { SoloApp } from "../components/RegistrationForms.js";
 
 const events = [
   {
